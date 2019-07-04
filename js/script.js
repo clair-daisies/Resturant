@@ -28,13 +28,6 @@ $(document).ready(function() {
     );
   });
 
-  //ripples
-  $("header, .nav-sub").ripples({
-    dropRadius: 10,
-    perturbance: 0,
-    resolution: 512
-  });
-
   //magnific popup
   $(".parent-container").magnificPopup({
     delegate: "a", // child items selector, by clicking on it popup will open

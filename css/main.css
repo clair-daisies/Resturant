@@ -305,6 +305,12 @@ body {
   background-size: cover;
 }
 
+#about h1 {
+  font-weight: 500;
+  font-size: 50px;
+  margin-bottom: 1rem;
+}
+
 .about-pictures {
   position: relative;
 }
@@ -353,6 +359,12 @@ body {
 
 .about-pictures:hover .about-image:not(:hover) {
   opacity: 0.5;
+}
+
+#about a:hover {
+  color: #8a3b06;
+  background-color: rgba(235, 166, 120, 0.8);
+  border: 2px solid rgba(235, 166, 120, 0.9);
 }
 
 /********************** contact *************/

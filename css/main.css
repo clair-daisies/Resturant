@@ -379,6 +379,28 @@ body {
   transform: translate(-50%, -50%);
 }
 
+/********************* review SECTION ****************/
+
+#reviews {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url(/images/about.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.review-img {
+  width: 150px;
+}
+
+.review-item {
+  background: rgba(255, 255, 255, 0.7);
+  clip-path: polygon(5% 0, 100% 0, 90% 100%, 0 100%);
+}
+
 /******************* footer *************************/
 #footer {
   background-color: #000;

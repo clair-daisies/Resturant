@@ -401,6 +401,60 @@ body {
   clip-path: polygon(5% 0, 100% 0, 90% 100%, 0 100%);
 }
 
+/******************CONTACT SECTION ****************/
+
+#contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url(/images/lunch.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.height-60 {
+  min-height: 60vh;
+}
+
+#contact .card {
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease;
+}
+
+#contact .card:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#contact .card-header {
+  color: #e26c1e;
+}
+
+#contact .input-group-text {
+  background: #e26c1e;
+  border-color: #e26c1e;
+  color: #242424;
+}
+
+#contact .card input {
+  color: #606060;
+}
+
+#contact .card input::placeholder {
+  color: #606060;
+}
+
+.contact-btn {
+  color: #e26c1e;
+  border-color: #e26c1e;
+  background: transparent;
+  transition: all 0.5s ease-in-out;
+}
+
+.contact-btn:hover {
+  background: #fbb340;
+  border-color: #fbb340;
+  color: #fff;
+}
+
 /******************* footer *************************/
 #footer {
   background-color: #000;

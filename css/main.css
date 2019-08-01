@@ -457,6 +457,31 @@ body {
 
 /******************* footer *************************/
 #footer {
-  background-color: #000;
+  background-color: #222;
   color: #fff;
+}
+
+#footer h5 {
+  word-spacing: 0.6rem;
+}
+
+#footer a {
+  transition: color 0.5s ease-in-out;
+}
+
+#footer a:hover {
+  color: #fbb340;
+}
+
+/*************** back to top arrow **********/
+#back-to-top {
+  background: #dad5cf;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.scrollTop {
+  position: fixed;
+  bottom: 70px;
+  right: 10px;
 }

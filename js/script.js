@@ -7,7 +7,7 @@ $(document).ready(function() {
   //sticky navbar and less padding
   $(window).scroll(function() {
     let position = $(this).scrollTop();
-    if (position >= 718) {
+    if (position >= 700) {
       $(".navbar").addClass("navbar-background");
       $(".navbar").addClass("fixed-top");
     } else {

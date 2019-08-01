@@ -14,7 +14,7 @@
 }
 
 .nav-sub {
-  background: #c9c1ac;
+  background: #000;
 }
 
 body {
@@ -27,6 +27,10 @@ body {
 
 .primary-color {
   color: #e26c1e;
+}
+
+.primary-color-light {
+  color: #fbb340;
 }
 
 .primary-color-dark {
@@ -42,7 +46,7 @@ body {
 }
 
 .nav-sub a:hover {
-  color: #e26c1e;
+  color: #8a3b06;
 }
 
 /***************** Header *********************/
@@ -167,7 +171,7 @@ body {
 
 /***************** navbar ************/
 .navbar {
-  background: #c9c1ac;
+  background: #222;
   padding: 20px 20px;
   transition: all ease;
 }
@@ -178,22 +182,26 @@ body {
 
 .navbar-brand {
   font-size: 30px;
+  font-weight: 500;
+  border-bottom: 3px solid white;
+  border-top: 3px solid white;
   transition: all 1s ease;
 }
 
 .navbar-brand:hover {
-  color: #242424;
+  color: #fff;
+  border-color: #e26c1e;
 }
 
 .nav-link {
-  color: #242424;
+  color: #fff;
   text-decoration: none;
-  transition: all 2s ease;
+  transition: all 0.5s ease;
   font-size: 23px;
 }
 
 .nav-link:hover {
-  color: #fbb340;
+  color: #8a3b06;
 }
 
 .nav-btn {
@@ -201,12 +209,12 @@ body {
   color: #e26c1e;
   border: 2px solid #e26c1e;
   font-size: 23px;
-  transition: all 2s ease;
+  transition: all 0.5s ease;
 }
 
 .nav-btn:hover {
-  color: #242424;
-  border: 2px solid #242424;
+  color: #fff;
+  border: 2px solid #fff;
   transform: rotate(10deg);
 }
 
